@@ -1,0 +1,102 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background: #5698E8;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+    background: rgb(134, 171, 238);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom: 0.5px solid red;
+    
+}
+
+.logo {
+    width: 6%;
+    padding: 2px;
+}
+
+.informacao {
+    display: flex;
+    gap: 30px;
+}
+
+.menuinf {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0E0D9E;
+}
+
+.titulo {
+    display: flex;
+    font-weight: 800;
+    text-align: center;
+    color: #0E0D9E;
+    text-shadow: 0.1em 0.1em rgb(134, 171, 238);
+    flex-direction: column;
+    margin-top: 30PX;
+    margin-bottom: 30PX;
+    gap: 5px
+    
+}
+
+.enmapa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.endereco {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #0E0D9E;
+    margin: 10px;
+    font-size: 15px;
+}
+
+.tquem{
+    text-shadow: 0.2em 0.2em rgb(134, 171, 238);
+}
+
+.mapa {
+    border-radius: 100px; 
+    justify-content: flex-end;
+    
+}
+
+.quemsomos {
+    border-bottom: 2px solid red;
+    border-bottom-right-radius: 15%; 
+    border-bottom-left-radius: 15%;
+    display: flex;
+    margin-top: 30px;
+    text-align: center;
+    color: #0E0D9E;
+    border-top: 5Px;
+    padding-bottom: 10px;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+.tquem{
+    font-weight: bolder;
+    text-shadow: 0.1em 0.1em rgb(134, 171, 238);
+}
+   
